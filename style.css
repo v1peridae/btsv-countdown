@@ -1,3 +1,20 @@
+@media screen and (max-width: 850px) {
+  h6 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10%;
+  }
+
+  h1 {
+    margin: 2%;
+  }
+
+  .countdown-div-class {
+    flex-direction: column;
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -18,8 +35,8 @@ h1 {
   padding-bottom: 5%;
 }
 
-.countdown-div-class{
-  color:#D54A42;
+.countdown-div-class {
+  color: #D54A42;
   margin-left: 12%;
   margin-right: 12%;
   display: flex;
@@ -27,26 +44,27 @@ h1 {
   text-align: center;
 }
 
-h3{
-  font-size:100px;
+h3 {
+  font-size: 100px;
   letter-spacing: 2px;
 }
 
-h6{
+h6 {
   font-size: 20px;
 }
 
-section{
-  padding-bottom:10%
+section {
+  padding-bottom: 10%
 }
 
-footer{
+footer {
   padding: 4%;
 }
 
 footer p {
   color: #FFFFFF;
 }
-footer a{
-  color:#D54A42;
+
+footer a {
+  color: #D54A42;
 }
